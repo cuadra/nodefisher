@@ -1,0 +1,34 @@
+{
+  "name": "nodefisher",
+  "version": "1.0.0",
+  "description": "CLI tool to scan a website's sitemap URLs for an HTML query selector using a headless browser context.",
+  "type": "module",
+  "main": "search.js",
+  "bin": {
+    "nodefisher": "./search.js"
+  },
+  "files": [
+    "search.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node search.js",
+    "postinstall": "npx playwright install chromium"
+  },
+  "keywords": [
+    "sitemap",
+    "crawler",
+    "web-crawler",
+    "selector",
+    "query-selector",
+    "playwright",
+    "scraping",
+    "seo"
+  ],
+  "author": "Jose Cuadra",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.60.0"
+  }
+}

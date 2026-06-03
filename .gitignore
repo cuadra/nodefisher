@@ -1,0 +1,14 @@
+# Dependency directory
+node_modules/
+
+# Package tarballs
+*.tgz
+
+# Output/temp files
+results.json
+results.txt
+
+# Local IDE configuration
+.idea/
+.vscode/
+.DS_Store

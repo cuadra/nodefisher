@@ -1,0 +1,12 @@
+# Exclude local debug outputs
+results.json
+results.txt
+
+# Exclude git configuration files
+.gitignore
+.npmignore
+
+# Exclude IDE/OS configurations
+.vscode/
+.idea/
+.DS_Store
