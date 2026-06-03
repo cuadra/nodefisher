@@ -1,5 +1,7 @@
 # Sitemap HTML Selector Scanner CLI (Playwright Edition)
 
+<img width="2172" height="724" alt="image" src="https://github.com/user-attachments/assets/4b682047-6c0d-4d7b-928f-4c3badda3e00" />
+
 A fast Node.js CLI tool that crawls a website's sitemap to gather all URLs, loads each page concurrently in a headless browser (using [Playwright](https://playwright.dev/)), and waits for client-side JavaScript/APIs to render before checking for a specified CSS/HTML query selector.
 
 This allows detection of dynamic elements (e.g. login/newsletter forms, React/Vue/Angular rendered components, and third-party widgets) that are not present in static HTML sources.
